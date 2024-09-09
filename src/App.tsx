@@ -95,6 +95,7 @@ const App = () => {
   return (
     <div className="App">
       <div>
+        <h1>SA Technology Test</h1>
         {!state.allQuestionsAns ? (
           <div>
             <p>{QUESTIONS[state.curIndex + 1]}</p>
